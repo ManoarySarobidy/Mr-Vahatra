@@ -1,0 +1,15 @@
+<?php 
+                        for( $i = 0; $i < count( $category ) ; $i++ ){ ?>
+                            <div class="col-lg-3">
+                                <div class="categories__item set-bg" data-setbg="img/categories/<?php echo $category[$i]['categoryimage'] ?>">
+                                    <h5>
+                                        <a href="#">
+                                            <?php echo $category[$i]['name']; ?>
+                                        </a>
+                                    </h5>
+                                </div>
+                            </div>
+
+                        <?php }
+
+                    ?>
